@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tailwind Email Subscription</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+        <div class="bg-zinc-800 p-2 rounded-2xl">
+            <div class="flex flex-col md:flex-row rounded-l-xl">
+                <img src="images/image.jpg" alt="" class="object-fit h-64 md:h-80 rounded-xl md:rounded-l-xl md:rounded-r-none transform hover:rounded-xl hover:scale-105 duration-200">
+
+                <div class="p-6 md:p-12">
+                    <h2 class="font-serif text-center md:text-left font-medium text-white text-xl">Get Your Weekly Newsletter</h2>
+                    <p class="text-s leading-5 tracking-wide text-center md:text-left text-white max-w-xs my-4">
+                        An email newsletter is a recurring email sent to subscribed contacts containing curated informational content from news articles to resources and tips. The goal is to provide ongoing value while surfacing important industry- or niche-related topics. 
+                    </p>
+                    <div class="flex flex-col md:flex-row mt-5 space-y-4 md:space-x-3 md:space-y-0">
+                        <input type="text" placeholder="Type your email address" class="p-2 px-4 bg-zinc-800 border border-zinc-600 placeholder:text-center text-s placeholder:md:text-left md:text-left focus:outline-none text-white">
+                        <button class="bg-lime-500 hover:bg-lime-700 px-5 py-3 rounded-md hover:text-white duration-500 transition">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
